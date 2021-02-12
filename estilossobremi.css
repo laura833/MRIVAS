@@ -1,0 +1,38 @@
+* {
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+
+.wrapp {
+	max-width: 1300px;
+	width:100%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.logos img {
+	width:100%;
+    padding: 10%;
+	vertical-align: top;
+} 
+
+.mensaje {
+	background:#27b2f2;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+    text-align: center;
+	border-radius:3px;
+}
+
+aside {
+	float: left;
+	width: 29%;
+	background:rgba(163, 219, 30, 0.733);
+	padding:8px;
+	position: fixed;
+	border-radius:9px;
+    
+}
+
+
