@@ -1,0 +1,76 @@
+* {
+    font-family: 'Lexend Mega', sans-serif;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:1.7px;
+}
+body {
+	background:#eceaea;
+	color:rgb(197, 137, 137);
+	font-family:Arial, helvetica, sans-serif;
+}
+.wrapp {
+	max-width: 1000px;
+	width:90%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.logos img {
+	width:100%;
+	vertical-align: top;
+	position: 0;
+} 
+
+.mensaje {
+	text-align: center;
+	background:#27b2f2;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+	font-size: 16px;
+	border-radius:5px;
+}
+.articulo {
+	float: left;
+	width: 70%;
+	padding:0px 20px 20px 0px;
+}
+aside {
+	float: left;
+	width: 28%;
+	background:rgba(252, 251, 248, 0.733);
+	padding:8px;
+	border-radius:9px;
+}
+
+
+footer{
+	max-width: 1000px;
+	min-height: 10px;
+	background:#eceaea;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
