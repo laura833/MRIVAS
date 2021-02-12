@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="estilosinteres.css">
+    <title>Intereses</title>
+</head>
+<body>
+    <div class="main">
+		<div class="slides">
+			<img src="img/11.PNG" alt="">
+      <img src="img/12.PNG" alt="">
+      <img src="img/13.PNG" alt="">
+      <img src="img/14.PNG" alt="">
+      <img src="img/15.PNG" alt="">
+		</div>
+	</div>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+
+    <script>
+ 
+        $(function(){
+      $(".slides").slidesjs({
+        play: {
+          active: true,
+            // [boolean] Generate the play and stop buttons.
+            // You cannot use your own buttons. Sorry.
+          effect: "slide",
+            // [string] Can be either "slide" or "fade".
+          interval: 3000,
+            // [number] Time spent on each slide in milliseconds.
+          auto: true,
+            // [boolean] Start playing the slideshow on load.
+          swap: true,
+            // [boolean] show/hide stop and play buttons
+          pauseOnHover: false,
+            // [boolean] pause a playing slideshow on hover
+          restartDelay: 2500
+            // [number] restart delay on inactive slideshow
+        }
+      });
+    });
+     
+        </script>
+</body>
+</html>
