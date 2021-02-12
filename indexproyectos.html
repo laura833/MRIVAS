@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosproyectos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <title>Proyectos</title>
+</head>
+<body>
+    
+    <div class="mensaje">
+        <div class="contenedor">
+                <div class="logo">
+                    <p>Te mostrare un poco de los existos que he tenido </p>
+                </div>
+    </div>
+    <div class="contenedor">
+		<div class="elemento">
+			<img src="img/11.PNG" alt="">
+			<p>LLevar el control de el proyecto RSPD</p>
+		</div>
+		<div class="elemento">
+			<img src="img/5.PNG" alt="">
+			<p>Crear un animatic del proyecto audiovisual</p>
+		</div>
+		<div class="elemento">
+			<img src="img/6.PNG" alt="">
+			<p>Desarollar un proyecto Audio visual para el modelado en 3D</p>
+		</div>
+        
+	</div>
+    <script>
+        	var $container = $('contenedor'); 
+			$container.imagesLoaded( function(contenedor) {
+			$container.masonry(contenedor);
+		});
+    </script>
+</body>
+</html>
