@@ -23,7 +23,9 @@
 
 </head>
 
+
 <body id="page-top">
+  
 
   <!-- Navigation -->
   <a class="menu-toggle rounded" href="#">
@@ -233,8 +235,36 @@
         </li>
       </ul>
       <p>   <a href="https://gmail.com/">laurriguerrero@gmailcom</a>
+
+
+        <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="108299584630849"
+  logged_in_greeting="Hola gracias por contactarme te respodere lo mas pronto que pueda?"
+  logged_out_greeting="Hola gracias por contactarme te respodere lo mas pronto que pueda?">
+      </div>
     </div>
   </footer>
+  
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -245,7 +275,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
-       <!-- GetButton.io widget -->
+
+    <!-- GetButton.io widget -->
 <script type="text/javascript">
   (function () {
       var options = {
@@ -260,9 +291,9 @@
   })();
 </script>
 <!-- /GetButton.io widget -->
-
-
 </body>
 
+
 </html>
+
 
