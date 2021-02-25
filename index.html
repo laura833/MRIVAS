@@ -262,25 +262,13 @@
       </div>
     </div>
   </footer>
-  
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
-
-    <!-- Load Facebook SDK for JavaScript -->
+  <!-- Load Facebook SDK for JavaScript -->
       <div id="fb-root"></div>
       <script>
         window.fbAsyncInit = function() {
           FB.init({
             xfbml            : true,
-            version          : 'v9.0'
+            version          : 'v10.0'
           });
         };
 
@@ -288,7 +276,7 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -296,7 +284,10 @@
       <div class="fb-customerchat"
         attribution="setup_tool"
         page_id="108299584630849"
-  logged_in_greeting="Hola puedes contactarme tambien por messenger si tienes problemas"></div>
+  theme_color="#FFBF00"
+  logged_in_greeting="Hola si gustas puedes contactarme el messenger de mi pagina personal?"
+  logged_out_greeting="Hola si gustas puedes contactarme el messenger de mi pagina personal?">
+      </div>
 
   
 </body>
