@@ -3172,7 +3172,20 @@ section#tips-part {
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
   }
 
+  .form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+  }
 
+  .form-btn:active{
+    opacity: 0.9;
+  }
+
+  footer.footer .social-link:hover {
+    background-color: #353535;
+    text-decoration: none;
+  }
   
   a {
     color: #bdc2c3;
